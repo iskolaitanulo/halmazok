@@ -1,0 +1,13 @@
+diak = {
+      'vezeteknev': 'Sólya',
+      'keresztnev': 'József',
+      'osztaly': '10.B',
+      'eletkor': 15,
+      'cim': {
+          'iranyitoszam': 9400,
+          'varos': 'Sopron',
+          'kozterulet': 'Fő utca',
+          'hazszam': 5
+        }
+}
+print(diak['cim']['iranyitoszam'])

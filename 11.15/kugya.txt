@@ -1,0 +1,13 @@
+nev = input("kutya neve?")
+ev = input("kutya eletkora?")
+fajta = input("kutya fajtaja?")
+oltas = input("rendelkezik e érvényes oltással?")
+
+kuugya = {
+'neve':nev,
+'eletkora':ev,
+'fajtaja':fajta,
+'oltasa':oltas
+}
+
+print(kuugya)
